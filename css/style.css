@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+h1{
+    text-align: center;
+    font-size: 70px;
+    color: cadetblue;
+    text-transform: capitalize;
+      
+}
+
+h2{
+    display: inline-block;
+    text-transform: capitalize;
+    color: cornflowerblue;
+}
+#visible{
+    cursor: pointer;
+}
+#user_name{
+    width:500px;
+    height: 30px;
+    margin-left: 45px;
+    background-color: darkseagreen;
+    border: 0.5px;
+    border-radius: 5px;
+    font-size: 20px;
+    text-align: center;
+    color: white;
+    
+}
+#password{
+    width:500px;
+    height: 30px;
+    margin-left: 60px;
+    background-color: darkseagreen;
+    border: 0.5px;
+    border-radius: 5px;
+    font-size: 20px;
+    text-align: center;
+    color: white;
+    
+}
+#weight{
+    width:500px;
+    height: 30px;
+    margin-left: 35px;
+    background-color: darkseagreen;
+    border: 0.5px;
+    border-radius: 5px;
+    font-size: 20px;
+    text-align: center;
+    color: white;
+    
+}
+#height{
+    width:500px;
+    height: 30px;
+    margin: 3px 25px;
+    
+    background-color: darkseagreen;
+    border: 0.5px;
+    border-radius: 5px;
+    font-size: 20px;
+    text-align: center;
+    color: white;
+    
+}
+#calculater{
+    padding: 3px 20px;
+    border-radius: 10px;
+    background-color: cadetblue;
+    color: antiquewhite;
+    border:none;
+    font-size: 30px;
+    text-transform:capitalize;
+    text-align: center;
+    display: block;
+    margin-left: 350px;
+  
+}

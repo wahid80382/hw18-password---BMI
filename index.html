@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <h1>password check</h1>
+    <section id="pass">
+        <div>
+            <div>
+                <h2 >user Name:</h2>
+                <input type="user_name" id="user_name" placeholder="Enter User Name">
+            </div>
+            <div>
+                <h2>password:</h2>
+                <input type="password" id="password" placeholder="Enter password">
+                <span class="material-symbols-outlined" id="visible" onclick="show()">
+                visibility</span>
+            </div>
+        </div>
+    </section>
+    <section id="Body_mass_index">
+        <h1>Body Mass Index (BMI) calculater</h1>
+        <div>
+            <h2 >Weight (kg):</h2>
+            <input type="text" id="weight" placeholder="Enter User weight [kg]">
+        </div>
+        <div>
+            <h2>Height (Feet):</h2>
+            <input type="text" id="height" placeholder="Enter User height [feet]">
+        </div>
+        <div id="btn">
+            <button id="calculater" onclick="bmi()">result</button>
+        </div>
+        <p id="result"></p>`
+        <p id="tips"></p>
+        
+  
+    
+    
+    <script src="./js/app.js"></script>
+</body>
+</html>
